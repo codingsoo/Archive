@@ -6,7 +6,25 @@ This repository contains archived projects that are no longer actively maintaine
 
 ## Archived Projects
 
-### 1. [Smart Contract Vulnerability Checker](sc-vulnerability-checker/)
+### 1. Social Engineering Defense
+
+**Summary:** The Social Engineering Defense project is designed to detect scam emails using advanced text analysis techniques. The system integrates multiple open-source tools for email crawling, sentence processing, form item detection, command analysis, and question analysis, making it a robust solution for identifying phishing attempts.
+
+**Achievements:**
+- **Presented at BlackHat USA 2018**: [Whitepaper](https://i.blackhat.com/us-18/Thu-August-9/us-18-Harris-Catch-Me-Yes-We-Can-wp.pdf)  
+- **Published in SA 2019**: [IEEE Paper](https://ieeexplore.ieee.org/abstract/document/8938036)  
+
+**Key Features:**
+- **Email Crawling**: Retrieves and processes email data with tools like BeautifulSoup and Langid.
+- **Sentence Processing**: Uses Punctuator2 and Punkt for sentence boundary detection and grammar restoration.
+- **Form Item Detection**: Converts forms into question formats for analysis.
+- **Sentence Type Identification**: Detects commands and questions using Stanford CoreNLP and a POS tagger.
+- **Blacklist Verification**: Uses TF-IDF to identify malicious command patterns.
+- **Question Scam Detection**: Employs a modified Paralex Question Answering System for scam detection.
+
+**Directory:** All related files for this project can be found in the [`social-engineering-defense`](social-engineering-defense/) directory. Latest version is available on [GitLab](https://gitlab.com/security-defenders/social-engineering-defense).
+
+### 2. [Smart Contract Vulnerability Checker](sc-vulnerability-checker/)
 
 **Summary:** The Smart Contract Vulnerability Checker was developed to analyze vulnerabilities in Ethereum-based smart contracts without requiring access to their source code. By combining a custom smart contract (Kookmin Security Token) with a vulnerability analysis server, this tool offered an innovative way to detect and report potential security issues.
 
@@ -27,7 +45,7 @@ This repository contains archived projects that are no longer actively maintaine
 
 **Directory:** All related files for this project can be found in the [`sc-vulnerability-checker`](sc-vulnerability-checker/) directory.
 
-### 2. [Virtual Girlfriend Chatbot](virtual-girlfriend/)
+### 3. [Virtual Girlfriend Chatbot](virtual-girlfriend/)
 
 **Summary:** The Virtual Girlfriend Chatbot is a web application that simulates conversations with an imaginary girlfriend. Users can choose between two personality concepts—friendly and softy. Through machine learning, the chatbot can read documents and respond in a human-like manner.
 
