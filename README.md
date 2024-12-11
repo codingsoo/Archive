@@ -6,7 +6,7 @@ This repository contains archived projects that are no longer actively maintaine
 
 ## Archived Projects
 
-### 1. Social Engineering Defense
+### 1. [Social Engineering Defense](social-engineering-defense/)
 
 **Summary:** The Social Engineering Defense project is designed to detect scam emails using advanced text analysis techniques. The system integrates multiple open-source tools for email crawling, sentence processing, form item detection, command analysis, and question analysis, making it a robust solution for identifying phishing attempts.
 
