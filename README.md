@@ -93,6 +93,14 @@ A real-time chatbot, Sayme, enhances developer collaboration by detecting, predi
 
 **Directory:** All related files for this project can be found in the [`virtual-girlfriend`](virtual-girlfriend/) directory.
 
+### 7. [Openhack-Judge](openhack2019/)
+
+**Summary:** This is a project scoring tool that will be a reference for judges at the 2019 OpenHack (Opensource Hackathon). This tool will evaluate how many people are engaged in the project, how many commit is added, and so on. This project's codes are based on [Hackathoners](https://github.com/harrydrippin/hackathoners).
+
+**Achievement:** Used as a judging tool during the OpenHack 2019 event.
+
+**Directory:** All related files for this project can be found in the [`openhack2019`](openhack2019/) directory.
+
 ---
 
 ## Notes on Archived Projects
