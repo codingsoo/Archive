@@ -40,7 +40,18 @@ A real-time chatbot, Sayme, enhances developer collaboration by detecting, predi
 
 **Directory:** All related files for this project can be found in the [`social-engineering-defense`](social-engineering-defense/) directory. Latest version is available on [GitLab](https://gitlab.com/security-defenders/social-engineering-defense).
 
-### 3. [Smart Contract Vulnerability Checker](sc-vulnerability-checker/)
+### 3. [Evlock](Evlock/)
+
+**Summary:** Evlock is a Klaytn-based peer-to-peer energy trading system that integrates advanced security measures, including ARM TrustZone and TLS, to address 34 identified vulnerabilities in blockchain-based smart grids, ensuring fast, secure, and reliable energy transactions.
+
+**Achievements:**
+- This project received 1st award from Line Blockchain Competition!
+- News (Korean): https://plus.hankyung.com/apps/newsinside.view?aid=201901287542A&category=AA010&sns=y
+
+**Directory:** All related files for this project can be found in the [`Evolck`](Evolck/) directory.
+
+
+### 4. [Smart Contract Vulnerability Checker](sc-vulnerability-checker/)
 
 **Summary:** The Smart Contract Vulnerability Checker was developed to analyze vulnerabilities in Ethereum-based smart contracts without requiring access to their source code. By combining a custom smart contract (Kookmin Security Token) with a vulnerability analysis server, this tool offered an innovative way to detect and report potential security issues.
 
@@ -61,7 +72,7 @@ A real-time chatbot, Sayme, enhances developer collaboration by detecting, predi
 
 **Directory:** All related files for this project can be found in the [`sc-vulnerability-checker`](sc-vulnerability-checker/) directory.
 
-### 4. [Signal Project](signal/)
+### 5. [Signal Project](signal/)
 
 **Summary:** Automatically generate sign language videos from input MP4 files. MobileNet and Online Learning algorithms are the key algorithms in this project.
 
@@ -69,7 +80,7 @@ A real-time chatbot, Sayme, enhances developer collaboration by detecting, predi
 
 **Directory:** All related files for this project can be found in the [`signal`](signal/) directory.
 
-### 5. [Virtual Girlfriend Chatbot](virtual-girlfriend/)
+### 6. [Virtual Girlfriend Chatbot](virtual-girlfriend/)
 
 **Summary:** The Virtual Girlfriend Chatbot is a web application that simulates conversations with an imaginary girlfriend. Users can choose between two personality concepts—friendly and softy. Through machine learning, the chatbot can read documents and respond in a human-like manner.
 
