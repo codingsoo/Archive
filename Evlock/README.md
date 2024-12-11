@@ -17,7 +17,7 @@
 
  We investigate security issues in P2P Energy Trading Platforms and divide them into four categories: Device Security, Network, Trade System, and Data Security. The possible security issues in P2P energy trading platforms are collected from existing researches [1, 2, 3].
 
-![security_issues_p2p_energy_trading](https://github.com/codingsoo/Evlock/blob/master/pictures/security_issues.png)
+![security_issues_p2p_energy_trading](https://github.com/codingsoo/Archive/blob/main/Evlock/pictures/security_issues.png)
 
 |<center>Name</center>|<center>Description</center>|<center>Goal</center>|
 |-|--|--|
@@ -65,7 +65,7 @@
 
 ## Architecture of our platform
 
-![our_system_architecture](https://github.com/codingsoo/Evlock/blob/master/pictures/our_system_architecture.png)
+![our_system_architecture](https://github.com/codingsoo/Archive/blob/main/Evlock/pictures/our_system_architecture.png)
 
 This is the overall design of our system. It consists of cloud server which has web interface, a smart meter that becomes an electricity managing node, and an Klaytn network, a power trading system. The first thing happening on our platform is building mutual TLS (Transport Layer Security) setting between cloud server and smart meter. After setting mutual TLS, we can generate actions and send it securely. Cloud server serves website and provides options to the users (check transactions, purchase, or sell). Before sending these actions to the Klaytn network, actions should be signed with private key of the user’s account. The process of signing in TLS communication and signing in Klaytn transaction takes place in a physically separate Secure World which is not interfered with by Normal World. After signing action, serialized transaction value is generated and Secure World pass the value to the Normal World. Then, the transaction moves to the Klaytn smart contract which mediate energy seller and buyer. When energy trade occurs, smart contract matches the buyer with the seller, holds the money from the buyer until the transaction is over, and pays the seller after the transaction is over.
 
@@ -117,10 +117,10 @@ There are a lot of famous P2P energy trading platforms such as Ponton, LO3 Energ
  With the evolution of the electrical grid and the ability of individuals to harvest and sell renewable green energy, the network in a smart grid is moving toward a decentralized network structure such as a peer-to-peer network. The inherent value-exchange mechanism embedded in blockchain technology makes it a promising candidate for implementing energy trading in smart grids, and most of the smart grid projects that address security issues adopt blockchain as a solution to security issues.
  Although the heavy encryption and distributed nature of a blockchain network enhances its ability to solve today’s smart grid security, it is apparent that this approach solves only part of the problem. We addressed 34 security issues in a smart grid, as identified by 23 studies.
  In an effort to provide security in all of these areas, we incorporated OpenSSL TLS encryption, ARM Trustzone, sensor checking algorithm, and Klaytn to provide trust and privacy in fast trading condition. A mini smart grid was implemented with an ARTIK IoT platform, a relay module, a current sensor, a smartphone, a rechargeable battery, and a solar panel. The software modules were implemented on this system.
-![graph1](https://github.com/codingsoo/Evlock/blob/master/pictures/global_smartmeter_market.png)
-![graph2](https://github.com/codingsoo/Evlock/blob/master/pictures/smartmeter_market.png)
+![graph1](https://github.com/codingsoo/Archive/blob/main/Evlock/pictures/global_smartmeter_market.png)
+![graph2](https://github.com/codingsoo/Archive/blob/main/Evlock/pictures/smartmeter_market.png)
 With 1.5 billion electric meters around the world, about 50 percent have been replaced by smart meters, and the share of smart meters continues to grow, according to the 2018 survey. Also, the global smart meter market is forecast to grow 9.34 percent annually from $12.79 billion in 2017, reaching $19.98 billion in 2022. Major corporations in the smart meter market are Landis+Gyr (Japan), Itron Inc. (USA), Honeywell International (USA), Sensus (USA), Kamstrup A/S (Denmark), and Schneider Electric (France). These companies do not have a P2P energy trading platform.  
  However, EVlock is a P2P energy trading platform. In addition, smart meters should be used together to make a reliable transaction. Users who use the P2P energy trading platform to make reliable transactions fast and cheap will be able to use our platform to take advantage of fast, secure and cheap transactions, which will allow EVlock to increase its share of the smart meter market.  
 There is no one who doesn't use electricity, so smart meters will become essential devices in life in the near future. And smart meters have the ability to pay for a transaction, and basically have high specifications. When these factors are put together, they are likely to be used to replace the existing home IOT.  
 Moreover, smart meters are not products that end with primary sales alone. Just as smartphone users use applications, applications can be used in smart meters. We plan to support applications so they can be used in EVlock's blockchain network. Developers targeting users of EVlock will develop many useful applications for smart meters. We also expect to use our products to use useful applications made by developers. Therefore, the EVlock ecosystem can be finally established.
-![Business_model](https://github.com/codingsoo/Evlock/blob/master/pictures/business_model.png)
+![Business_model](https://github.com/codingsoo/Archive/blob/main/Evlock/pictures/business_model.png)
