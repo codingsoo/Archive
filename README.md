@@ -22,11 +22,11 @@ The Smart Contract Vulnerability Checker was developed to analyze vulnerabilitie
 
 **Architecture:**  
 The project implemented a real-time vulnerability detection workflow using Ethereum smart contracts and external analysis servers.  
-![Architecture](https://github.com/codingsoo/Archive/sc-vulnerability-checker/blob/master/architecture.PNG)
+![Architecture](https://github.com/codingsoo/Archive/blob/main/sc-vulnerability-checker/architecture.PNG)
 
 **Results:**  
 The tool successfully identified vulnerabilities in a dataset of 19 smart contracts, demonstrating its effectiveness.  
-![Results](https://github.com/codingsoo/Archive/sc-vulnerability-checker/blob/master/result.PNG)
+![Results](https://github.com/codingsoo/Archive/blob/main/sc-vulnerability-checker/result.PNG)
 
 **Directory:**  
 All related files for this project can be found in the [`sc-vulnerability-checker`](sc-vulnerability-checker/) directory.
