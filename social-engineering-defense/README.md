@@ -32,15 +32,15 @@ The structure of our social engineering defense system is as shown in the follow
 
 ## System Structure
 
-![system_structure](https://github.com/zerobugplz/social-engineering-defense/blob/master/system_structure.png)  
+![system_structure](https://github.com/codingsoo/Archive/blob/main/social-engineering-defense/system_structure.png)  
 
 ### Data
 
-We use e-mail data, but input can be any text data. You can crawl e-mail data in the [crawl_mails folder](https://github.com/zerobugplz/social-engineering-defense/tree/master/crawl_mails), or you can use [pre-crawled e-mail data](https://drive.google.com/file/d/1D8BUS_wxZVip6EFmhMkrXunBXcuBev7o/view?usp=sharing). You can see detail code in the [crawl_mails folder](https://github.com/zerobugplz/social-engineering-defense/tree/master/crawl_mails)
+We use e-mail data, but input can be any text data. You can crawl e-mail data in the [crawl_mails folder](https://github.com/codingsoo/Archive/tree/main/social-engineering-defense/crawl_mails).
 
 ### Sentence Processing
 
-Analyzing scam data is difficult because they destroy grammar on purpose. The most critical point is they don't have right punctuations. It is really hard to break down into sentences without punctuations. We use [punctuator2](https://github.com/ottokart/punctuator2) for solving this problem. Then we detect sentence boundary with Punkt tool. It finds not only periods, but also can distinguish whether it is used for ending a sentence or abbreviation. You can see details in the [sentence_boundary_detection folder](https://github.com/zerobugplz/social-engineering-defense/tree/master/sentence_boundary_detection). You can use [pre-sentence-tokenized e-mail data](https://drive.google.com/open?id=1_LHcOVE0A3hd1mBwZl-o4ivSfu42IGJV).
+Analyzing scam data is difficult because they destroy grammar on purpose. The most critical point is they don't have right punctuations. It is really hard to break down into sentences without punctuations. We use [punctuator2](https://github.com/ottokart/punctuator2) for solving this problem. Then we detect sentence boundary with Punkt tool. It finds not only periods, but also can distinguish whether it is used for ending a sentence or abbreviation. You can see details in the [sentence_boundary_detection folder](https://github.com/codingsoo/Archive/tree/main/social-engineering-defense/sentence_boundary_detection).
 
 ### Form Item Detection
 
@@ -58,7 +58,7 @@ what is your job?
 what is your phone?
 ```
 
-You can see details in the [form_item_detection folder](https://github.com/zerobugplz/social-engineering-defense/tree/master/form_item_detection).
+You can see details in the [form_item_detection folder](https://github.com/codingsoo/Archive/tree/main/social-engineering-defense/form_item_detection).
 
 ### Sentence Type Identification
 
@@ -84,7 +84,7 @@ I want you to do these things.
 ```
 #### 4. Question
 If there are ‘SQ’ tag or ‘SBARQ’ tag in parse result, we detect it as a question.  
-You can see the details in the [sentence type identification folder](https://github.com/zerobugplz/social-engineering-defense/tree/master/sentence_type_identification).
+You can see the details in the [sentence type identification folder](https://github.com/codingsoo/Archive/tree/main/social-engineering-defense/sentence_type_identification).
 
 ### Check Malicious with Blacklist
 
@@ -95,11 +95,11 @@ ship money
 send money
 notify we
 ```
-You can see the details in the [check phishing with command folder](https://github.com/zerobugplz/social-engineering-defense/blob/master/check_phishing_with_command)
+You can see the details in the [check phishing with command folder](https://github.com/codingsoo/Archive/tree/main/social-engineering-defense/check_phishing_with_command)
 
 ### Check Malicious with Question Answering System(Paralex)
 
-We use [paralex](http://knowitall.cs.washington.edu/paralex/) system for this step. It is basically Question Answering System, but we changed the database to use it as question scam detector. Please download our [modified paralex file](https://drive.google.com/file/d/1XYXagUwkcKcFUU6Kljvh6zJAVSnHnM0t/view?usp=drive_web).  
+We use [paralex](http://knowitall.cs.washington.edu/paralex/) system for this step. It is basically Question Answering System, but we changed the database to use it as question scam detector. 
 
 ```
 unzip paralex-evaluation-test.zip
@@ -149,10 +149,8 @@ Our system works on e-mail texts, but we also provide a docker demo where you ca
 docker login
 docker pull learnitdeep/social-engineering-defense
 ```
-
-Please download our [file](https://drive.google.com/file/d/1d3VIQYrMN_nOaDSD3S54XbCAGyb6zqwy/view?usp=sharing), and unzip it. you can link your computer's directory and docker containers directory with -v option.  
   
-This is the example.
+Example Command:
 ```
 docker run -it -v /Users/learnitdeep/Desktop/social-engineering-defense-demo/:/social-engineering-defense learnitdeep/social-engineering-defense
 ```
@@ -176,9 +174,3 @@ Now you can use our demo!
 ```
 python demo.py what is your password # Beep! Scam detected.
 ```
-
-## Ongoing work
-
-- Make punctuator faster(using different model)
-- Collect other text data apart from emails
-- improve form detecting algorithm
