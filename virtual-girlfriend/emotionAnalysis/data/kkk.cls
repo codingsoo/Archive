@@ -1,0 +1,3 @@
+happy
+normal
+sad

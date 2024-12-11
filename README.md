@@ -28,8 +28,21 @@ The project implemented a real-time vulnerability detection workflow using Ether
 The tool successfully identified vulnerabilities in a dataset of 19 smart contracts, demonstrating its effectiveness.  
 ![Results](https://github.com/codingsoo/Archive/blob/main/sc-vulnerability-checker/result.PNG)
 
-**Directory:**  
-All related files for this project can be found in the [`sc-vulnerability-checker`](sc-vulnerability-checker/) directory.
+**Directory:** All related files for this project can be found in the [`sc-vulnerability-checker`](sc-vulnerability-checker/) directory.
+
+### 2. [Virtual Girlfriend Chatbot](virtual-girlfriend/)
+
+**Summary:**  
+The Virtual Girlfriend Chatbot is a web application that simulates conversations with an imaginary girlfriend. Users can choose between two personality concepts—friendly and softy. Through machine learning, the chatbot can read documents and respond in a human-like manner.
+
+**Achievement:** Secured **3rd Prize** in **OpenHack Korea 2017** [Event Link](https://sigoss.github.io/hackathon2017/index.html).
+
+**Key Features:**  
+- Two chatbot concepts: friendly and softy.  
+- Machine learning-powered document reading and conversational abilities.  
+- Extendable with custom models for improved responses.
+
+**Directory:** All related files for this project can be found in the [`virtual-girlfriend`](virtual-girlfriend/) directory.
 
 ---
 
