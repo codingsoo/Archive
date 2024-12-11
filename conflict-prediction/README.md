@@ -60,10 +60,9 @@ https://www.youtube.com/embed/FO2RW24wHFQ<br>
 
 ## Algorithm
 
-- NLP : You can see the algorithm in [chat_bot_server_dir folder](https://github.com/codingsoo/Archive/conflict-prediction/tree/py3_server/chat_bot_server_dir)
-- Conflict detection : You can see the algorithm in [server_dir folder](https://github.com/codingsoo/Archive/conflict-prediction/tree/py3_server/server_dir)
-- Conflict prediction : You can see the algorithm in [server_dir_folder](https://github.com/codingsoo/Archive/conflict-prediction/tree/py3_server/server_dir)
+- NLP : You can see the algorithm in [chat_bot_server_dir folder](https://github.com/codingsoo/Archive/tree/main/conflict-prediction/chat_bot_server_dir)
+- Conflict detection/prediction : You can see the algorithm in [server_dir folder](https://github.com/codingsoo/Archive/tree/main/conflict-prediction/server_dir)
 
 ## Publication
 
-This work has been published at BotSE 2019: [A chatbot for conflict detection and resolution](https://ieeexplore.ieee.org/document/8823615). [Bibtex Citation Here]()
+This work has been published at BotSE 2019: [A chatbot for conflict detection and resolution](https://ieeexplore.ieee.org/document/8823615). [Bibtex Citation Here](https://github.com/codingsoo/Archive/blob/main/conflict-prediction/paper.bib)

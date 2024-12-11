@@ -6,7 +6,23 @@ This repository contains archived projects that are no longer actively maintaine
 
 ## Archived Projects
 
-### 1. [Social Engineering Defense](social-engineering-defense/)
+### 1. [A Chatbot for Git Conflict Detection and Resolution](confict-prediction/)
+
+**Summary:** 
+A real-time chatbot, Sayme, enhances developer collaboration by detecting, predicting, and resolving Python code conflicts, providing conflict alerts and recommendations via Slack.
+
+**Achievements:** Published at BotSE 2019 (https://ieeexplore.ieee.org/document/8823615)
+
+**Key Features:**
+
+- Conflict Management: Detects direct and indirect code conflicts, predicts conflict probability, and provides severity details.
+- File Controls: Supports ignoring files (like .gitignore), locking files with warnings, and identifying ignored or locked files.
+- Collaboration Tools: Shares user working statuses, tracks code history, and sends messages or recommendations for conflict resolution.
+- User Interaction: Greets users, provides updates, and allows disabling alarms or conflict notifications.
+
+**Directory:** All related files for this project can be found in the [`conflict-prediction`](conflict-prediction/) directory. Latest version is available on [GitLab](https://gitlab.com/security-defenders/social-engineering-defense).
+
+### 2. [Social Engineering Defense](social-engineering-defense/)
 
 **Summary:** The Social Engineering Defense project is designed to detect scam emails using advanced text analysis techniques. The system integrates multiple open-source tools for email crawling, sentence processing, form item detection, command analysis, and question analysis, making it a robust solution for identifying phishing attempts.
 
@@ -24,7 +40,7 @@ This repository contains archived projects that are no longer actively maintaine
 
 **Directory:** All related files for this project can be found in the [`social-engineering-defense`](social-engineering-defense/) directory. Latest version is available on [GitLab](https://gitlab.com/security-defenders/social-engineering-defense).
 
-### 2. [Smart Contract Vulnerability Checker](sc-vulnerability-checker/)
+### 3. [Smart Contract Vulnerability Checker](sc-vulnerability-checker/)
 
 **Summary:** The Smart Contract Vulnerability Checker was developed to analyze vulnerabilities in Ethereum-based smart contracts without requiring access to their source code. By combining a custom smart contract (Kookmin Security Token) with a vulnerability analysis server, this tool offered an innovative way to detect and report potential security issues.
 
@@ -45,7 +61,7 @@ This repository contains archived projects that are no longer actively maintaine
 
 **Directory:** All related files for this project can be found in the [`sc-vulnerability-checker`](sc-vulnerability-checker/) directory.
 
-### 3. [Signal Project](signal/)
+### 4. [Signal Project](signal/)
 
 **Summary:** Automatically generate sign language videos from input MP4 files. MobileNet and Online Learning algorithms are the key algorithms in this project.
 
@@ -53,7 +69,7 @@ This repository contains archived projects that are no longer actively maintaine
 
 **Directory:** All related files for this project can be found in the [`signal`](signal/) directory.
 
-### 4. [Virtual Girlfriend Chatbot](virtual-girlfriend/)
+### 5. [Virtual Girlfriend Chatbot](virtual-girlfriend/)
 
 **Summary:** The Virtual Girlfriend Chatbot is a web application that simulates conversations with an imaginary girlfriend. Users can choose between two personality concepts—friendly and softy. Through machine learning, the chatbot can read documents and respond in a human-like manner.
 
