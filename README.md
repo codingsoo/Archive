@@ -35,7 +35,7 @@ The tool successfully identified vulnerabilities in a dataset of 19 smart contra
 **Summary:**  
 The Virtual Girlfriend Chatbot is a web application that simulates conversations with an imaginary girlfriend. Users can choose between two personality concepts—friendly and softy. Through machine learning, the chatbot can read documents and respond in a human-like manner.
 
-**Achievement:** Secured **3rd Prize** in **OpenHack Korea 2017** [Event Link](https://sigoss.github.io/hackathon2017/index.html).
+**Achievement:** 3rd Prize in OpenHack Korea 2017 [Event Link](https://sigoss.github.io/hackathon2017/index.html).
 
 **Key Features:**  
 - Two chatbot concepts: friendly and softy.  
