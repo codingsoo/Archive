@@ -6,7 +6,7 @@ This repository contains archived projects that are no longer actively maintaine
 
 ## Archived Projects
 
-### 1. [A Chatbot for Git Conflict Detection and Resolution](confict-prediction/)
+### 1. [A Chatbot for Git Conflict Detection and Resolution](conflict-prediction/)
 
 **Summary:** 
 A real-time chatbot, Sayme, enhances developer collaboration by detecting, predicting, and resolving Python code conflicts, providing conflict alerts and recommendations via Slack.
