@@ -45,7 +45,15 @@ This repository contains archived projects that are no longer actively maintaine
 
 **Directory:** All related files for this project can be found in the [`sc-vulnerability-checker`](sc-vulnerability-checker/) directory.
 
-### 3. [Virtual Girlfriend Chatbot](virtual-girlfriend/)
+### 3. [Signal Project](signal/)
+
+**Summary:** Automatically generate sign language videos from input MP4 files. MobileNet and Online Learning algorithms are the key algorithms in this project.
+
+**Achievement:** This project won 3rd place in the Hand-in-Hand Challenge (details: [Testworks Blog](https://blog.testworks.co.kr/sign-language-data-hand-in-hand-challenge-3/)).
+
+**Directory:** All related files for this project can be found in the [`signal`](signal/) directory.
+
+### 4. [Virtual Girlfriend Chatbot](virtual-girlfriend/)
 
 **Summary:** The Virtual Girlfriend Chatbot is a web application that simulates conversations with an imaginary girlfriend. Users can choose between two personality concepts—friendly and softy. Through machine learning, the chatbot can read documents and respond in a human-like manner.
 
