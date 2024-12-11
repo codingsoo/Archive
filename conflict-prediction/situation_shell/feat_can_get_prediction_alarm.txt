@@ -1,0 +1,2 @@
+You were not ignoring messages concerning indirect conflicts.
+You have been already receiving notifications about indirect conflicts.

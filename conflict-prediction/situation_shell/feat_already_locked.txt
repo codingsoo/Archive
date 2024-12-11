@@ -1,0 +1,2 @@
+You've already locked *{filename}*.
+This file was already locked by you.

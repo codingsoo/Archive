@@ -1,0 +1,12 @@
+pip3 install flask
+pip3 install pymysql
+pip3 install theano
+pip3 install slacker
+pip3 install websocket-client-py3
+pip3 install timestring
+pip3 install slackbot
+pip3 install slackclient
+pip3 install slack
+pip3 install slackeventsapi
+pip3 install dialogflow
+/Applications/Python\ 3.6/Install\ Certificates.command

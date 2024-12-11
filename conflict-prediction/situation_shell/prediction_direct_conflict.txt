@@ -1,0 +1,7 @@
+I predict you may have a direct conflict in future with *{userlist}* with probabilities of {percentagelist}.
+You will probably end up having a direct conflict in future with *{userlist}* with {percentagelist} confidence.
+There will likely be a direct conflict in future with {percentagelist} probability with *{userlist}*.
+With a likelihood of {percentagelist} of the time, you will probably have a direct conflict in future with *{userlist}*
+I predict that you will probably have a direct conflict in future with *{userlist}* with {percentagelist} of confidence.
+You and *{userlist}* may end up having direct conflicts in future with probabilities of {percentagelist}.
+I believe a direct conflict is likely to occur in future between you and *{userlist}* with {percentagelist} probability.
